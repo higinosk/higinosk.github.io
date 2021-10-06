@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #006d77;
+}
+
+div {
+  background-color: #83c5be;
+  color: #fefae0;
+  padding: 2% 0 0 0;
+  font-family: "playfair";
+  font-weight: 900;
+  color: #fefae0;
+  font-style: inherit;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.picture {
+  border-radius: 50%;
+  border: #e29578 5px solid;
+  float: left;
+  page-break-after: always;
+}
+
+.sobre {
+  padding-top: 0em;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+
+div p {
+  min-height: 300px;
+  text-align:center;
+  margin-left: 5%;
+  
+}
+
+.habilidades {
+  text-align: center;
+}
+
+h2 {
+  font-family: Oswald;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #e29578;
+}
+p,
+ul {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #ffddd2;
+}
+.button {
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fefae0;
+  margin-left: 48%;
+  }
