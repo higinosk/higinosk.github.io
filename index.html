@@ -3,48 +3,201 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Kamilly Higino</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kamilly Higino - Web Developer | Technology Enthusiast" />
+
+  <title>Kamilly Higino | Web Developer</title>
+  <link rel="icon" href="images/favicon (1).ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="name"> 
-    <h1>KAMILLY HIGINO</h1>
-  <br>
-  <div> 
-  <img class="picture" src="images/kami.jpeg" alt="Foto de perfil kamilly" width="300px" />
-  <h2 class="sobre" >Um pouco sobre mim</h2>
-    <p>
-    Vivi minhas primeiras 2 decadas no Brasil, atualmente moro na Argentina,
-    estudei medicina. <br />
-    Sou uma aquariana de 25 anos, apaixonada por livros de romance e podcasts
-    de True Crime. Em meados de 2021, decidi <strong>finalmente</strong> me
-    dedicar a area de tecnologia e hoje estudo desenvolvimento web na Trybe.
-  </p>
-  </div>
-  </div>
-  <br />
+<div id="site">
+  <div class="switch-wrapper">
+    <div class="sun"></div>
+    <div class="toggle-wrapper">
+        <input id="switch" type="checkbox"/>
+        <label for="switch" id="toggle">Toggle</label>
+    </div>
+    <div class="moon"></div>
+</div>
+  <header class="intro">
+    <h1 class="intro__hello">
+      Hello! <div class="wave-hand"><img src="images/wave.png" alt=""></div></h1>
+    <h2 class="intro__tagline">I'm <span class="name">Kamilly Higino</span>, a web developer passionate about challenges
+      and continuous
+      learning. Turning passion
+      into reality in the vast field of web development <img src="images/technologist.png" alt="technologist" class="technologist"></h2>
+    <h3 class="intro__contact">
+      <span>Get in touch</span>
+      <img src="images/pointright.png" alt="pointright" class="pointer">
+      <span><a href="mailto:kamilly.higinos@gmail.com" target="_blank" class="highlight-link">kamilly.higinos@gmail.com
+        </a></span>
+    </h3>
+  </header>
+  <main>
+    <section class="section background">
+      <div class="section__title">About</div>
+      <div class="section__content">
+        <p>
+          Enthusiastic and detail-oriented professional with 10 years of
+          customer support experience and with a strong passion for
+          programming and a focus on becoming a Junior Programming.
+        </p>
+        <p>
+          Proficient in support, diplomacy, and a self-taught Spanish and English speaker
+          with Portuguese as a first language.
+        </p>
+        <p>
+          Adept at thriving under challenging circumstances such as tight
+          deadlines, resource constraints, or taking over ongoing projects and
+          committed to continuous learning and skill development.
+        </p>
+        <p><strong>When I'm not in front of a computer screen</strong>, you'll likely find me trekking, playing with my
+          dog, George, or
+          checking off another book from my reading list.</p>
+      </div>
+    </section>
+    <section class="section skills">
+      <div class="section__title">Skills</div>
+      <div class="section__content">
+        <div class="skillz">
+          <div class="skillz__category">
+            <div class="skillz__category__label">Languages</div>
+            <ul>
+              <li class="skillz__category__item">HTML5</li>
+              <li class="skillz__category__item">CSS3</li>
+              <li class="skillz__category__item">JavaScript (ES6)</li>
+              <li class="skillz__category__item">SQL</li>
+            </ul>
+          </div>
+          <div class="skillz__category">
+            <div class="skillz__category__label">Frameworks</div>
+            <ul>
+              <li class="skillz__category__item">React</li>
+              <li class="skillz__category__item">Express</li>
+            </ul>
+          </div>
+          <div class="skillz__category">
+            <div class="skillz__category__label">Tools</div>
+            <ul>
+              <li class="skillz__category__item">Git & Github</li>
+              <li class="skillz__category__item">Chrome DevTools</li>
+              <li class="skillz__category__item">Visual Studio Code</li>
+              <li class="skillz__category__item">GIMP</li>
+              <li class="skillz__category__item">HandBrake</li>
+            </ul>
 
-  <h2 class="habilidades">Habilidades</h2>
-  <ul>
-    <li>Poliglota - <strong>Português | Espanhol | Inglês</strong></li>
-    <li>Git & GitHub</li>
-    <li>HTML & CSS</li>
-  </ul>
-  <br />
-  <a class="button" href="https://github.com/higinosk" target="_blank">
-    GitHub</a>
+          </div>
+
+        </div>
+    </section>
+    <section class="section experience">
+      <div class="section__title">Experience</div>
+      <div class="section__content">
+        <div class="jobs">
+          <div class="job">
+            <div class="time-place">
+              <div class="job__company"> <a href="https://www.outtrip.com/" target="_blank">
+                  Outtrip
+                </a></div>
+              <div class="job__time">2022 - 2023</div>
+            </div>
+            <div class="job__position">· Customer Service Representative ·</div>
+          </div>
+          <div class="job">
+            <div class="time-place">
+              <div class="job__company">
+                <a href="https://www.taranis.com/" target="_blank">Taranis</a>
+              </div>
+              <div class="job__time">Dec 2020  - Feb 2021</div>
+            </div>
+            <div class="job__position">· Project Manager Assistant ·</div>
+          </div>
+          <div class="job">
+            <div class="time-place">
+              <div class="job__company">
+                <a href="#">Bronze Biquineria</a>
+              </div>
+              <div class="job__time">2010 - 2019</div>
+            </div>
+            <div class="job__position">· Retail Sales ·</div>
+          </div>
+        </div>
+        <a href="resume.pdf" target="_blank" class="arrow-link">View Full Résumé</a>
+      </div>
+    </section>
+    <section class="section other-projects">
+      <div class="section__title">Projects</div>
+      <div class="section__content">
+        <div class="project">
+          <div class="project__name">
+            <a href="https://higinosk.github.io/project-android/" target="_blank" class="arrow-link">Android</a>
+          </div>
+          <p>
+            A small project created during Module 2 of the CursoEmVideo's HTML5 and CSS3 course, tracing the evolution of the Android operating system since 2008. This project involve the development of static web pages, applying styles and structure using only HTML5 and CSS3 principles taught in the course.
+          </p>
+          <div class="project__used">
+            <span class="project__used__item">HTML5</span>
+            <span class="project__used__item">CSS3</span>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project_name">
+            <a href="#" target="_blank" class="arrow-link">Project 2</a>
+          </div>
+          <p>
+            A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I
+            used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates
+            to create a map background that reflected the current city using the Google Maps API.
+          </p>
+          <div class="project__used">
+            <span class="project__used__item">JavaScript</span>
+            <span class="project__used__item">React</span>
+            <span class="project__used__item">React Router</span>
+            <span class="project__used__item">Axios</span>
+            <span class="project__used__item">YouTube API</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section certifications">
+      <div class="section__title">Certifications and Courses</div>
+      <div class="section__content">
+        <ul>
+          <li><a href="#">Certificate in Web Development (Online Course)</a></li>
+          <li><a href="#">Java Programming Certification</a></li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__copyright">
+      <div class="top"><span>Designed &amp; Developed by</span>
+      </div>
+      <div class="bottom">
+        <span>Kamilly Higino</span>
+        <img class='emoji' src="images/crystal-emoji.png" alt="crystal-emoji"/>
+        <span>2024</span>
+      </div>
+      </div>
+    <div class="footer__links">
+      <a href="mailto:kamilly.higinos@gmail.com" target="_blank" title="email">
+        <span class="text">email</span>
+      </a>
+      <a href="https://github.com/higinosk" target="_blank" title="github">
+        <span class="text">github</span>
+      </a>
+      <a href="https://www.linkedin.com/in/kamilly-higino/" target="_blank" title="linkedln">
+        <span class="text">linkedln</span>
+      </a>
+    </div>
+  </footer>
+  <button id="top-button">
+    <img src="images/point-up-emoji.png" alt="point-up-emoji">
+  </button>
+</div>
 </body>
 
 </html>
