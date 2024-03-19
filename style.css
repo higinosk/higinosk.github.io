@@ -37,6 +37,11 @@
     src: url('Fonts/VremenaGrotesk/vremena-grotesk/VremenaGroteskMediumItalic.otf') format(opentype);
 }
 
+@font-face {
+    font-family: Brolimo;
+    src: url('Fonts/Bromilo/BROLIMO-Bold.otf') format(opentype);
+}
+
 *, :after, :before {
     margin: 0;
     padding: 0;
@@ -44,17 +49,14 @@
 }
 
 :root {
-    --color1: #171C28;
-    --color2: #E2E8F0;
-    --color3: #94A3B8;
-    --color4: #5EEAD4;
-    --color5: #64748B;
-    --color6: #183656;
-    --color7: #afafbf;
-    --color8: #e7e7e7;
+    --color1: #0d0c1d;
+    --color4: #a69cac;
+    --color5: #e99e75;
+    --color6: #161b33;
+    --color8: #f1dac4;
     --font1: 'Vremena Grotesk',"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     --font2: 'Inconsolate', sans-serif;
-    --font3: 'Inter', sans-serif;
+    --font3: 'inter', sans-serif;
 }
 html {
     -webkit-box-sizing: border-box;
@@ -67,11 +69,11 @@ html {
 }
 
 ::-moz-selection {
-    background: #ffdc00
+    background: black
 }
 
 ::selection {
-    background: #ffdc00
+    background: black
 }
 /* Aplicar estilos ao body */
 body, html {
@@ -79,7 +81,7 @@ body, html {
     padding: 0;
     -webkit-font-smothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--color1);
+    background:radial-gradient(1945px circle at 0.00% 0.00%, var(--color6) 0%, var(--color1) 100%);
     color: var(--color8);
     font-family: var(--font3);
     line-height: 1.5;
